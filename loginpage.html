@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Super Quiz</title>
+    <style>
+        *{
+            margin: 10px;
+        }
+
+        body{
+            background-color: #292929;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main{
+            min-width: 300px;
+            max-width: 1000px;
+            background-color: #292929;
+            margin: auto;
+            width: 400px;
+        }
+
+        main > h1{
+            text-align: center;
+            color: white;
+        }
+
+        h1#super{
+            color: green;
+        }
+
+        .titulo{
+            color: red;
+        }
+
+        span{
+            color: white;
+        }
+
+        input{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border: 1px solid white;
+            margin: auto;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1 id="super">SUPER <span class="titulo">QUIZ</span></h1>
+        <h1>LOGIN</h1>
+        <input name="Data de nascimaento" type="date"><span>Data de nascimento</span>
+        <br>
+        <input  name="username" type="username">
+        <span>Nome do usuario</span>
+        <br>
+        <input name="senha" type="password">
+        <span>Senha</span>
+        <br>
+        <input type="radio" name="Não sou um robo" id="radio">
+        <span>Não sou um robo</span>
+        <br>
+        <a href="#">CONTINUAR</a>
+    </main>
+</body>
+</html>
